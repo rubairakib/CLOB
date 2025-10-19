@@ -1,10 +1,12 @@
-🦀 Rust OrderBook
+# 🦀 Rust OrderBook
+
 A high-performance OrderBook implementation in Rust for cryptocurrency exchanges.
 It efficiently manages and matches market and limit orders across multiple trading pairs (e.g., BTC-USD), maintaining separate queues for bids (buy) and asks (sell).
 
 The system prioritizes both speed and fairness, ensuring deterministic matching based on price-time priority — all while being ready for real-time integration via WebSocket notifications.
 
-🚀 Features
+# 🚀 Features
+
 -Order Management – Add and manage both market and limit orders with ease.
 
 -Order Matching Engine – Automatically matches market orders against the best available limit orders, and executes limit orders as soon as compatible counterparts appear.
